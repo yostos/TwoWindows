@@ -11,6 +11,9 @@ import Cocoa
 class SecondViewController: NSViewController {
 
    
+   
+    @IBOutlet weak var aLabel: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,6 +27,11 @@ class SecondViewController: NSViewController {
     }
     required init?(coder: (NSCoder!)) {
         super.init(coder: coder)
+    }
+    
+    override func viewWillAppear() {
+        let aMessage = self.representedObject as Message
+        aLabel.stringValue = aMessage.message
     }
     
     @IBAction func dismiss(sender: AnyObject) {

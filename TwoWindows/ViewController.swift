@@ -22,7 +22,11 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
+    
+    override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject?) {
+        let secondViewController = segue.destinationController as SecondViewController
+        secondViewController.representedObject = aMessage
+    }
 
 }
 
