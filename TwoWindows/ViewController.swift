@@ -10,10 +10,11 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet var aMessage: Message!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        aMessage.message = "Hello World"
     }
 
     override var representedObject: AnyObject? {

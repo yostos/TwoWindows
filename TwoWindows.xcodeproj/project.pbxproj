@@ -12,6 +12,8 @@
 		F4A141091A3CE47900780343 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A141081A3CE47900780343 /* Images.xcassets */; };
 		F4A1410C1A3CE47900780343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A1410A1A3CE47900780343 /* Main.storyboard */; };
 		F4A141181A3CE47900780343 /* TwoWindowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A141171A3CE47900780343 /* TwoWindowsTests.swift */; };
+		F4A141221A3CE99700780343 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A141211A3CE99700780343 /* SecondViewController.swift */; };
+		F4C6672B1A3D28A1003EFE21 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6672A1A3D28A1003EFE21 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		F4A141111A3CE47900780343 /* TwoWindowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoWindowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A141161A3CE47900780343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A141171A3CE47900780343 /* TwoWindowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWindowsTests.swift; sourceTree = "<group>"; };
+		F4A141211A3CE99700780343 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F4C6672A1A3D28A1003EFE21 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 			children = (
 				F4A141041A3CE47800780343 /* AppDelegate.swift */,
 				F4A141061A3CE47900780343 /* ViewController.swift */,
+				F4A141211A3CE99700780343 /* SecondViewController.swift */,
 				F4A141081A3CE47900780343 /* Images.xcassets */,
 				F4A1410A1A3CE47900780343 /* Main.storyboard */,
+				F4C6672A1A3D28A1003EFE21 /* Message.swift */,
 				F4A141021A3CE47800780343 /* Supporting Files */,
 			);
 			path = TwoWindows;
@@ -208,7 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A141221A3CE99700780343 /* SecondViewController.swift in Sources */,
 				F4A141071A3CE47900780343 /* ViewController.swift in Sources */,
+				F4C6672B1A3D28A1003EFE21 /* Message.swift in Sources */,
 				F4A141051A3CE47800780343 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +405,7 @@
 				F4A1411D1A3CE47900780343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4A1411E1A3CE47900780343 /* Build configuration list for PBXNativeTarget "TwoWindowsTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				F4A141201A3CE47900780343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
